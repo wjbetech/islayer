@@ -7,7 +7,7 @@ export const NavBar = () => {
     <div className="nav bg-slate-800 text-white">
         {/* left side */}
         <div className="left">
-            <img src={logo} alt="" />
+            <h1 className='text-xl'>iSlayer</h1>
         </div>
 
         {/* middle */}
@@ -18,7 +18,7 @@ export const NavBar = () => {
                     className='rounded-full'
                 />
                 <button
-                    className='rounded-full bg-slate-500'
+                    className='rounded-full text-sm bg-slate-500'
                 >
                     Search
                 </button>
@@ -29,12 +29,12 @@ export const NavBar = () => {
         <div className="right">
             <a href="https://github.com/wjbetech">
                 <button>
-                    <i class='bx bxl-github bx-md'></i>
+                    <i className='bx bxl-github bx-md'></i>
                 </button>
             </a>
             <a href="https://www.linkedin.com/in/william-east-653535211/">
                 <button>
-                    <i class='bx bxl-linkedin bx-md'></i>
+                    <i className='bx bxl-linkedin bx-md'></i>
                 </button>
             </a>
         </div>
