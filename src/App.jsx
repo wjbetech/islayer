@@ -4,10 +4,9 @@ import { MonstersContainer } from './components/MonstersContainer'
 
 function App() {
   return (
-    <div className="App bg-slate-500">
+    <div className="App">
       <NavBar />
       <Header />
-      <MonstersContainer />
     </div>
   )
 }
