@@ -1,0 +1,1370 @@
+{
+    "slayerMonsters": [
+      {
+        "name": "Abyssal Demon",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Abyssal_demon.png/400px-Abyssal_demon.png?5e1ed",
+        "combatLevel": 124,
+        "hitpoints": 150,
+        "slayerLevel": 85,
+        "location": "Catacombs of Kourend",
+        "itemRequirement": [],
+        "drops": [
+          "Abyssal Whip",
+          "Abyssal Dagger",
+          "Abyssal Head"
+        ]
+      },
+      {
+        "name": "Dark Beast",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Dark_beast.png/580px-Dark_beast.png?81f00",
+        "combatLevel": 182,
+        "hitpoints": 220,
+        "slayerLevel": 90,
+        "location": "Mourner Tunnels",
+        "itemRequirement": [],
+        "drops": [
+          "Dark Bow",
+          "Death Rune",
+          "Dark Totem"
+        ]
+      },
+      {
+        "name": "Kalphite Queen",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Kalphite_Queen.png/580px-Kalphite_Queen.png?a4955",
+        "combatLevel": 333,
+        "hitpoints": 255,
+        "slayerLevel": 85,
+        "location": "Kalphite Lair",
+        "itemRequirement": [],
+        "drops": [
+          "Kalphite Queen Head",
+          "Kq Head",
+          "Dragon Chainbody"
+        ]
+      },
+      {
+        "name": "Crawling Hand",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Crawling_Hand_%28level_7%29.png/400px-Crawling_Hand_%28level_7%29.png?3e89e",
+        "combatLevel": 7,
+        "hitpoints": 15,
+        "slayerLevel": 5,
+        "location": ["Slayer Tower", "Meiyerditch Laboratories"],
+        "drops": [
+          "Leather gloves",
+          "Gold ring",
+          "Sapphire ring",
+          "Emerald ring",
+          "Coins"
+        ]
+      },
+      {
+        "name": "Cave bug",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Cave_bug_%28level_6%29.png/500px-Cave_bug_%28level_6%29.png?a482e",
+        "combatLevel": 6,
+        "hitpoints": 5,
+        "slayerLevel": 7,
+        "location": ["Dorgesh-Kaan South Dungeon", "Lumbridge Swamp Caves"],
+        "drops": [
+          {
+            "item": "Water rune",
+            "amount": 8
+          },
+          {
+            "item": "Nature rune",
+            "amount": ["1-2"]
+          },
+          {
+            "item": "Earth rune",
+            "amount": 6
+          },
+          {
+            "item": "Random herb",
+            "amount": 1
+          }
+        ],
+        "Unicorn horn dust": 1,
+        "Eye of newt": 1,
+        "Red spiders' eggs": 1,
+        "Limpwurt root": 1,
+        "Snape grass": 1
+      },
+      {
+        "name": "Cave crawler",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Cave_crawler_%281%29.png/560px-Cave_crawler_%281%29.png?47f4c",
+        "combatLevel": 23,
+        "hitpoints": 22,
+        "slayerLevel": 10,
+        "location": ["Dorgesh-Kaan South Dungeon", "Fremennik Slayer Dungeon", "Lumbridge Swamp Caves"],
+        "drops": [
+          {
+            "item": "Nature rune",
+            "amount": ["3-4"]
+          },
+          {
+            "item": "Fire rune",
+            "amount": [12]
+          },
+          {
+            "item": "Earth rune",
+            "amount": [9]
+          },
+          {
+            "item": "Random herb",
+            "amount": [1]
+          },
+          {
+            "item": "Snape grass seed",
+            "amount": ["1-3"]
+          },
+          {
+            "item": "Watermelon seed",
+            "amount": [1]
+          },
+          {
+            "item": "White berries",
+            "amount": [1]
+          },
+          {
+            "item": "Unicorn horn dust",
+            "amount": [1]
+          },
+          {
+            "item": "Limpwurt root",
+            "amount": [1]
+          },
+          {
+            "item": "Coins",
+            "amount": [3, 8, 29, 10]
+          }
+        ]
+      },
+      {
+        "name": "Banshee",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Banshee.png/280px-Banshee.png?5f883",
+        "combatLevel": 23,
+        "hitpoints": 22,
+        "slayerLevel": 15,
+        "location": "Slayer Tower (ground floor)",
+        "drops": [
+          {
+            "item": "Iron mace",
+            "amount": [1]
+          },
+          {
+            "item": "Iron dagger",
+            "amount": [1]
+          },
+          {
+            "item": "Iron kiteshield",
+            "amount": [1]
+          },
+          {
+            "item": "Mystic gloves (dark)",
+            "amount": [1]
+          },
+          {
+            "item": "Air rune",
+            "amount": [3]
+          },
+          {
+            "item": "Cosmic rune",
+            "amount": [2]
+          },
+          {
+            "item": "Chaos rune",
+            "amount": [3]
+          },
+          {
+            "item": "Fire rune",
+            "amount": [7]
+          },
+          {
+            "item": "Chaos rune",
+            "amount": [7]
+          },
+          {
+            "item": "Random herb",
+            "amount": [1]
+          }
+          ,
+          {
+            "item": "Pure essence (noted)",
+            "amount": [13]
+          },
+          {
+            "item": "Iron ore",
+            "amount": [1]
+          }
+        ]
+      },
+      {
+        "name": "Cave slime",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Cave_slime.png/400px-Cave_slime.png?21448",
+        "combatLevel": 23,
+        "hitpoints": 25,
+        "slayerLevel": 17,
+        "location": ["Dorgesh-Kaan South Dungeon", "Lumbridge Swamp Caves"],
+        "drops": [
+          {
+            "item": "Swamp tar",
+            "amount": ["1-6"]
+          },
+          {
+            "item": "Iron sword",
+            "amount": [1]
+          },
+          {
+            "item": "Bronze axe",
+            "amount": [1]
+          },
+          {
+            "item": "Bronze full helm",
+            "amount": [1]
+          },
+          {
+            "item": "Iron boots",
+            "amount": [1]
+          },
+          {
+            "item": "Water rune",
+            "amount": [15]
+          },
+          {
+            "item": "Earth rune",
+            "amount": [5]
+          },
+          {
+            "item": "Gold bar",
+            "amount": [1]
+          }
+        ]
+      },
+      {
+        "name": "Rockslug",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Rockslug.png/500px-Rockslug.png?2fd77",
+        "combatLevel": 29,
+        "hitpoints": 27,
+        "slayerLevel": 20,
+        "location": ["Dorgesh-Kaan South Dungeon", "Fremennik Slayer Dungeon", "Lumbridge Swamp Caves"],
+        "drops": [
+          {
+            "item": "Mystic gloves (light)",
+            "amount": [1]
+          },
+          {
+            "item": "Earth rune",
+            "amount": [5, 42]
+          },
+          {
+            "item": "Chaos rune",
+            "amount": [2]
+          },
+          {
+            "item": "Iron ore",
+            "amount": [1]
+          },
+          {
+            "item": "Coal",
+            "amount": [1]
+          },
+          {
+            "item": "Tin ore",
+            "amount": [1]
+          },
+          {
+            "item": "Copper ore",
+            "amount": [1]
+          },
+          {
+            "item": "Mithril ore",
+            "amount": [1]
+          },
+          {
+            "item": "Bronze bar",
+            "amount": [1]
+          },
+          {
+            "item": "Iron bar",
+            "amount": [1]
+          },
+          {
+            "item": "Watermelon seed",
+            "amount": [2]
+          },
+          {
+            "item": "Snape grass seed",
+            "amount": [2]
+          },
+          {
+            "item": "Hammer",
+            "amount": [1]
+          }
+        ]
+      },
+      {
+        "name": "Cockatrice",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Cockatrice.png/300px-Cockatrice.png?6339a",
+        "combatLevel": 37,
+        "hitpoints": 37,
+        "slayerLevel": 25,
+        "location": ["Fremennik Slayer Dungeon"],
+        "itemRequirement": ["Mirror shield"],
+        "drops": [
+          {
+            "item": "Iron sword",
+            "amount": [1]
+          },
+          {
+            "item": "Steel dagger",
+            "amount": [1]
+          },
+          {
+            "item": "Iron boots",
+            "amount": [1]
+          },
+          {
+            "item": "Iron javelin",
+            "amount": [5]
+          },
+          {
+            "item": "Steel longsword",
+            "amount": [1]
+          },
+          {
+            "item": "Mystic boots (light)",
+            "amount": [1]
+          },
+          {
+            "item": "Nature rune",
+            "amount": [2, 4, 6]
+          },
+          {
+            "item": "Law rune",
+            "amount": [2]
+          },
+          {
+            "item": "Water rune",
+            "amount": [2]
+          },
+          {
+            "item": "Fire rune",
+            "amount": [7]
+          },
+          {
+            "item": "Random herb",
+            "amount": [1]
+          },
+          {
+            "item": "Watermelon seed",
+            "amount": [2]
+          },
+          {
+            "item": "Snape grass seed",
+            "amount": [2]
+          }
+        ]
+      },
+      {
+        "name": "Pyrefiend",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Pyrefiend.png/240px-Pyrefiend.png?404b3",
+        "combatLevel": 43,
+        "hitpoints": 45,
+        "slayerLevel": 30,
+        "location": ["Fremennik Slayer Cave", "God Wars Dungeon", "Isle of Souls", "Sisterhood Sanctuary", "Smoke Dungeon", "Wilderness God Wars Dungeon"],
+        "drops": [
+          {
+            "item": "Steel axe",
+            "amount": [1]
+          },
+          {
+            "item": "Steel full helm",
+            "amount": [1]
+          },
+          {
+            "item": "Staff of fire",
+            "amount": [1]
+          },
+          {
+            "item": "Mithril chainbody",
+            "amount": [1]
+          },
+          {
+            "item": "Steel boots",
+            "amount": [1]
+          },
+          {
+            "item": "Adamant med helm",
+            "amount": [1]
+          },
+          {
+            "item": "Fire rune",
+            "amount": [30, 60]
+          },
+          {
+            "item": "Chaos rune",
+            "amount": [12]
+          },
+          {
+            "item": "Death rune",
+            "amount": [3]
+          },
+          {
+            "item": "Gold ore",
+            "amount": [1]
+          },
+          {
+            "item": "Jug of wine",
+            "amount": [1]
+          }
+        ]
+      },
+      {
+        "name": "Killerwatt",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Killerwatt_%28Passive%29.png/500px-Killerwatt_%28Passive%29.png?7172c",
+        "combatLevel": 55,
+        "hitpoints": 51,
+        "slayerLevel": 37,
+        "location": ["Killerwatt plane"],
+        "itemRequirement": ["Insulated boots"],
+        "drops": [
+          {
+            "item": "Staff of fire",
+            "amount": [1]
+          },
+          {
+            "item": "Staff of air",
+            "amount": [1]
+          },
+          {
+            "item": "Fire battlestaff",
+            "amount": [1]
+          },
+          {
+            "item": "Air battlestaff",
+            "amount": [1]
+          },
+          {
+            "item": "Mystic fire staff",
+            "amount": [1]
+          },
+          {
+            "item": "Nature rune",
+            "amount": [8, 37]
+          },
+          {
+            "item": "Chaos rune",
+            "amount": [4]
+          },
+          {
+            "item": "Fire rune",
+            "amount": [18, 45]
+          },
+          {
+            "item": "Air rune",
+            "amount": [5, 17]
+          },
+          {
+            "item": "Death rune",
+            "amount": [2]
+          },
+          {
+            "item": "Steam rune",
+            "amount": [2]
+          },
+          {
+            "item": "Cannonball",
+            "amount": [3]
+          },
+          {
+            "item": "Random herb",
+            "amount": [1]
+          },
+          {
+            "item": "Fire orb",
+            "amount": [2]
+          },
+          {
+            "item": "Soda ash",
+            "amount": [4]
+          }
+        ]
+      },
+      {
+        "name": "Basilisk",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Basilisk.png/560px-Basilisk.png?37a42",
+        "combatLevel": 61,
+        "hitpoints": 75,
+        "slayerLevel": 40,
+        "location": ["Fremennik Slayer Dungeon", "Jormungand's Prison"],
+        "itemRequirement": ["Mirror or V's shield"],
+        "drops": [
+          {
+            "item": "Mithril axe",
+            "amount": [1]
+          },
+          {
+            "item": "Steel battleaxe",
+            "amount": [1]
+          },
+          {
+            "item": "Mithril spear",
+            "amount": [1]
+          },
+          {
+            "item": "Adamant full helm",
+            "amount": [1]
+          },
+          {
+            "item": "Mithril kiteshield",
+            "amount": [1]
+          },
+          {
+            "item": "Rune dagger",
+            "amount": [1]
+          },
+          {
+            "item": "Mystic hat (light)",
+            "amount": [1]
+          },
+          {
+            "item": "Nature rune",
+            "amount": [15, 37]
+          },
+          {
+            "item": "Water rune",
+            "amount": [75]
+          },
+          {
+            "item": "Random herb",
+            "amount": [1]
+          },
+          {
+            "item": "Adamantite ore",
+            "amount": [1]
+          }
+        ]
+      },
+      {
+        "name": "Sulphur Lizard",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Sulphur_Lizard.png/520px-Sulphur_Lizard.png?64f41",
+        "combatLevel": 50,
+        "hitpoints": 50,
+        "slayerLevel": 44,
+        "location": ["Karuulm Slayer Dungeon"],
+        "itemRequirement": ["Boots of stone, boots of brimstone, or granite boots"],
+        "drops": [
+          {
+            "item": "Mystic gloves (light)",
+            "amount": [1]
+          },
+          {
+            "item": "Nature rune",
+            "amount": ["5-10"]
+          },
+          {
+            "item": "Fire rune",
+            "amount": ["10-60"]
+          },
+          {
+            "item": "Random herb",
+            "amount": [1]
+          },
+          {
+            "item": "Tin ore (noted)",
+            "amount": ["10-15"]
+          },
+          {
+            "item": "Copper ore (noted)",
+            "amount": ["10-15"]
+          },
+          {
+            "item": "Coal (noted)",
+            "amount": ["5-10"]
+          },
+          {
+            "item": "Silver ore (noted)",
+            "amount": ["5-10"]
+          },
+          {
+            "item": "Iron ore (noted)",
+            "amount": ["5-10"]
+          },
+          {
+            "item": "Mithril ore (noted)",
+            "amount": ["3-5"]
+          },
+          {
+            "item": "Iron bar (noted)",
+            "amount": ["6-10"]
+          },
+          {
+            "item": "Silver bar (noted)",
+            "amount": ["3-5"]
+          },
+          {
+            "item": "Steel bar (noted)",
+            "amount": ["3-5"]
+          }
+        ]
+      },
+      {
+        "name": "Infernal Mage",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Infernal_Mage.png/300px-Infernal_Mage.png?f3e68",
+        "combatLevel": 66,
+        "hitpoints": 60,
+        "slayerLevel": 45,
+        "location": ["Slayer Tower (1st floor)"],
+        "drops": [
+          {
+            "item": "Mystic boots (dark)",
+            "amount": [1]
+          },
+          {
+            "item": "Mystic hat (dark)",
+            "amount": [1]
+          },
+          {
+            "item": "Staff",
+            "amount": [1]
+          },
+          {
+            "item": "Staff of fire",
+            "amount": [1]
+          },
+          {
+            "item": "Lava battlestaff",
+            "amount": [1]
+          },
+          {
+            "item": "Earth rune",
+            "amount": [10, 18, 36]
+          },
+          {
+            "item": "Fire rune",
+            "amount": [10, 18]
+          },
+          {
+            "item": "Air rune",
+            "amount": [10, 18]
+          },
+          {
+            "item": "Water rune",
+            "amount": [10, 18]
+          },
+          {
+            "item": "Death rune",
+            "amount": [7]
+          },
+          {
+            "item": "Mind rune",
+            "amount": [18]
+          },
+          {
+            "item": "Body rune",
+            "amount": [18]
+          },
+          {
+            "item": "Blood rune",
+            "amount": [4]
+          }
+        ]
+      },
+      {
+        "name": "Bloodveld",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Bloodveld.png/500px-Bloodveld.png?adc61",
+        "combatLevel": 76,
+        "hitpoints": 120,
+        "slayerLevel": 50,
+        "location": ["God Wars Dungeon", "Meiyerditch Laboratories", "Slayer Tower (1st floor)", "Slayer Tower (basement", "Stronghold Slayer Cave", "Wilderness God Wars Dungeon"],
+        "drops": [
+          {
+            "item": "Steel axe",
+            "amount": [1]
+          },
+          {
+            "item": "Steel full helm",
+            "amount": [1]
+          },
+          {
+            "item": "Steel scimitar",
+            "amount": [1]
+          },
+          {
+            "item": "Black boots",
+            "amount": [1]
+          },
+          {
+            "item": "Mithril sq shield",
+            "amount": [1]
+          },
+          {
+            "item": "Mithril chainbody",
+            "amount": [1]
+          },
+          {
+            "item": "Rune med helm",
+            "amount": [1]
+          },
+          {
+            "item": "Fire rune",
+            "amount": [60]
+          },
+          {
+            "item": "Blood rune",
+            "amount": [3, 10, 30]
+          },
+          {
+            "item": "Random herb",
+            "amount": [1]
+          },
+          {
+            "item": "Gold ore",
+            "amount": [1]
+          }
+        ]
+      },
+      {
+        "name": "Jelly",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Jelly.png/500px-Jelly.png?7a847",
+        "combatLevel": 78,
+        "hitpoints": 75,
+        "slayerLevel": 52,
+        "location": ["Fremennik Slayer Dungeon", "Wilderness Slayer Cave"],
+        "drops": [
+          {
+            "item": "Steel battleaxe",
+            "amount": [1]
+          },
+          {
+            "item": "Steel 2h sword",
+            "amount": [1]
+          },
+          {
+            "item": "Steel axe",
+            "amount": [1]
+          },
+          {
+            "item": "Mithril kiteshield",
+            "amount": [1]
+          },
+          {
+            "item": "Mithril boots",
+            "amount": [1]
+          },
+          {
+            "item": "Rune full helm",
+            "amount": [1]
+          },
+          {
+            "item": "Chaos rune",
+            "amount": [15]
+          },
+          {
+            "item": "Death rune",
+            "amount": [5]
+          },
+          {
+            "item": "Gold bar",
+            "amount": [1]
+          },
+          {
+            "item": "Thread",
+            "amount": [10]
+          }
+        ]
+      },
+      {
+        "name": "Turoth",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Turoth_%28lv_83%29.png/500px-Turoth_%28lv_83%29.png?96f06",
+        "combatLevel": 83,
+        "hitpoints": 76,
+        "slayerLevel": 55,
+        "location": ["Fremennik Slayer Dungeon"],
+        "itemRequirement": ["Leaf-bladed weaponry", "Broad-type ammo", "Magic Dart spell"],
+        "drops": [
+          {
+            "item": "Steel platelegs",
+            "amount": [1]
+          },
+          {
+            "item": "Mithril axe",
+            "amount": [1]
+          },
+          {
+            "item": "Mithril kiteshield",
+            "amount": [1]
+          },
+          {
+            "item": "Adamant full helm",
+            "amount": [1]
+          },
+          {
+            "item": "Rune dagger",
+            "amount": [1]
+          },
+          {
+            "item": "Leaf-bladed sword",
+            "amount": [1]
+          },
+          {
+            "item": "Mystic robe bottom (light)",
+            "amount": [1]
+          },
+          {
+            "item": "Law rune",
+            "amount": [3]
+          },
+          {
+            "item": "Nature rune",
+            "amount": [15, 37]
+          },
+          {
+            "item": "Random herb",
+            "amount": ["1-3"]
+          },
+          {
+            "item": "Random herb seed",
+            "amount": [1]
+          },
+          {
+            "item": "Snape grass seed",
+            "amount": [3]
+          },
+          {
+            "item": "Limpwurt root",
+            "amount": [1]
+          }
+        ]
+      },
+      {
+        "name": "Cave horror",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Cave_horror_%281%29.png/480px-Cave_horror_%281%29.png?a57e4",
+        "combatLevel": 80,
+        "hitpoints": 55,
+        "slayerLevel": 58,
+        "location": ["Mos Le-Harmless Cave"],
+        "itemRequirement": ["Witchwood icon", "Light source"],
+        "drops": [
+          {
+            "item": "Mithril axe",
+            "amount": [1]
+          },
+          {
+            "item": "Rune dagger",
+            "amount": [1]
+          },
+          {
+            "item": "Adamant full helm",
+            "amount": [1]
+          },
+          {
+            "item": "Mithril kiteshield",
+            "amount": [1]
+          },
+          {
+            "item": "Black mask (10)",
+            "amount": [1]
+          },
+          {
+            "item": "Nature rune",
+            "amount": [3, 4, 6]
+          },
+          {
+            "item": "Random herb",
+            "amount": ["1-3"]
+          },
+          {
+            "item": "Random herb seed",
+            "amount": [1]
+          },
+          {
+            "item": "Snape grass seed",
+            "amount": ["1-3"]
+          },
+          {
+            "item": "Watermelon seed",
+            "amount": [1]
+          },
+          {
+            "item": "Limpwurt root",
+            "amount": [1]
+          },
+          {
+            "item": "Teak logs (noted)",
+            "amount": [4]
+          }, 
+          {
+            "item": "Mahogany logs",
+            "amount": [2]
+          }
+        ]
+      },
+      {
+        "name": "Aberrant spectre",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Aberrant_spectre.png/300px-Aberrant_spectre.png?65d6f",
+        "combatLevel": 96,
+        "hitpoints": 90,
+        "slayerLevel": 60,
+        "location": ["Slayer Tower (1st floor)", "Stronghold Slayer Cave"],
+        "itemRequirement": ["Nose peg", "Slayer helm"],
+        "drops": [
+          {
+            "item": "Steel axe",
+            "amount": [1]
+          },
+          {
+            "item": "Lava battlestaff",
+            "amount": [1]
+          },
+          {
+            "item": "Adamant platelegs",
+            "amount": [1]
+          },
+          {
+            "item": "Mithril kiteshield",
+            "amount": [1]
+          },
+          {
+            "item": "Rune full helm",
+            "amount": [1]
+          },
+          {
+            "item": "Mystic robe bottom (dark)",
+            "amount": [1]
+          },
+          {
+            "item": "Nature rune",
+            "amount": [3, 4, 6]
+          },
+          {
+            "item": "Random herb",
+            "amount": ["1-3"]
+          },
+          {
+            "item": "Random herb seed",
+            "amount": [1]
+          },
+          {
+            "item": "Snape grass seed",
+            "amount": [3]
+          }
+        ]
+    },
+      {
+        "name": "Dust devil",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Dust_devil.png/280px-Dust_devil.png?4b2c4",
+        "combatLevel": 93,
+        "hitpoints": 105,
+        "slayerLevel": 65,
+        "location": ["Smoke Dungeon", "Wilderness Slayer Cave", "Catacombs of Kourend"],
+        "itemRequirement": ["Facemask", "Slayer helm"],
+        "drops": [
+          {
+            "item": "Adamant axe",
+            "amount": [1]
+          },
+          {
+            "item": "Rune dagger",
+            "amount": [1]
+          },
+          {
+            "item": "Red d'hide vambraces",
+            "amount": [1]
+          },
+          {
+            "item": "Air battlestaff",
+            "amount": [1]
+          },
+          {
+            "item": "Earth battlestaff",
+            "amount": [1]
+          },
+          {
+            "item": "Black d'hide vambraces",
+            "amount": [1]
+          },
+          {
+            "item": "Mystic air staff",
+            "amount": [3, 4, 6]
+          },
+          {
+            "item": "Mystic earth staff",
+            "amount": ["1-3"]
+          },
+          {
+            "item": "Dragon dagger",
+            "amount": [1]
+          },
+          {
+            "item": "Dust battlestaff",
+            "amount": [1]
+          },
+          {
+            "item": "Dragon chainbody",
+            "amount": [1]
+          },
+          {
+            "item": "Dust rune",
+            "amount": [200]
+          },
+          {
+            "item": "Earth rune",
+            "amount": [300]
+          },
+          {
+            "item": "Fire rune",
+            "amount": [50, 300]
+          },
+          {
+            "item": "Chaos rune",
+            "amount": [80]
+          },
+          {
+            "item": "Soul rune",
+            "amount": [20, 50]
+          },
+          {
+            "item": "Random herb",
+            "amount": [1]
+          },
+          {
+            "item": "Mithril bar (noted)",
+            "amount": [10]
+          },
+          {
+            "item": "Adamantite bar (noted)",
+            "amount": [4]
+          }
+        ]
+      },
+      {
+        "name": "Kurask",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Kurask.png/450px-Kurask.png?e9f94",
+        "combatLevel": 106,
+        "hitpoints": 97,
+        "slayerLevel": 70,
+        "location": ["Fremennik Slayer Cave", "Fremennik Slayer Cave (task area)", "Iorwerth Dungeon"],
+        "itemRequirement": ["Leaf-bladed weaponry", "Broad-type ammo", "Magic Dart spell"],
+        "drops": [
+          {
+            "item": "Mithril kiteshield",
+            "amount": [1]
+          },
+          {
+            "item": "Rune longsword",
+            "amount": [1]
+          },
+          {
+            "item": "Adamant platebody",
+            "amount": [1]
+          },
+          {
+            "item": "Rune axe",
+            "amount": [1]
+          },
+          {
+            "item": "Leaf-bladed sword",
+            "amount": [1]
+          },
+          {
+            "item": "Mystic robe top (light)",
+            "amount": [1]
+          },
+          {
+            "item": "Leaf-bladed battleaxe",
+            "amount": [3, 4, 6]
+          },
+          {
+            "item": "Nature rune",
+            "amount": [10, 15, 30]
+          },
+          {
+            "item": "Random herb",
+            "amount": ["1-3"]
+          },
+          {
+            "item": "Random herb seed",
+            "amount": [1]
+          },
+          {
+            "item": "Snape grass seed",
+            "amount": [3]
+          },
+          {
+            "item": "Flax (noted)",
+            "amount": [100]
+          },
+          {
+            "item": "White berries (noted)",
+            "amount": [12]
+          },
+          {
+            "item": "Big bones (noted)",
+            "amount": [20]
+          },
+          {
+            "item": "Papaya fruit (noted)",
+            "amount": [10]
+          },
+          {
+            "item": "Coconut (noted)",
+            "amount": [10]
+          }
+        ]
+      },
+      {
+        "name": "Skeletal Wyvern",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Skeletal_Wyvern.png/560px-Skeletal_Wyvern.png?6d52e",
+        "combatLevel": 140,
+        "hitpoints": 210,
+        "slayerLevel": 72,
+        "location": ["Asgarnian Ice Dungeon", "Asgarnian Ice Dungeon (task area)"],
+        "itemRequirement": ["Elemental, mind, dragonfire, dragonfire ward, or ancient wyvern shield"],
+        "drops": [
+          {
+            "item": "Granite legs",
+            "amount": [1]
+          },
+          {
+            "item": "Dragon platelegs",
+            "amount": [1]
+          },
+          {
+            "item": "Dragon plateskirt",
+            "amount": [1]
+          },
+          {
+            "item": "Earth battlestaff",
+            "amount": [1]
+          },
+          {
+            "item": "Battlestaff (noted)",
+            "amount": [10]
+          },
+          {
+            "item": "Rune axe",
+            "amount": [1]
+          },
+          {
+            "item": "Rune battleaxe",
+            "amount": [1]
+          },
+          {
+            "item": "Rune warhammer",
+            "amount": [1]
+          },
+          {
+            "item": "Rune full helm",
+            "amount": ["1-3"]
+          },
+          {
+            "item": "Rune kiteshield",
+            "amount": [1]
+          },
+          {
+            "item": "Air rune",
+            "amount": [225]
+          },
+          {
+            "item": "Water rune",
+            "amount": [150]
+          },
+          {
+            "item": "Chaos rune",
+            "amount": [80]
+          },
+          {
+            "item": "Law rune",
+            "amount": [45]
+          },
+          {
+            "item": "Death rune",
+            "amount": [40]
+          },
+          {
+            "item": "Blood rune",
+            "amount": [25]
+          },
+          {
+            "item": "Soul rune",
+            "amount": [20]
+          },
+          {
+            "item": "Adamant bolts",
+            "amount": ["75-99"]
+          },
+          {
+            "item": "Runite bolts",
+            "amount": ["35-44"]
+          },
+          {
+            "item": "Random herb",
+            "amount": ["1-3"]
+          },
+          {
+            "item": "Pure essence (noted)",
+            "amount": [250]
+          },
+          {
+            "item": "Magic logs (noted)",
+            "amount": [35]
+          },
+          {
+            "item": "Adamantite bar (noted)",
+            "amount": [10]
+          },
+          {
+            "item": "Iron ore (noted)",
+            "amount": [200]
+          },
+          {
+            "item": "Uncut ruby (noted)",
+            "amount": [10]
+          },
+          {
+            "item": "Uncut diamond (noted)",
+            "amount": [5]
+          },
+          {
+            "item": "Unpowered orb (noted)",
+            "amount": [75]
+          }
+        ]
+      },
+      {
+        "name": "Gargoyle",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Gargoyle.png/500px-Gargoyle.png?b7dd7",
+        "combatLevel": 111,
+        "hitpoints": 105,
+        "slayerLevel": 75,
+        "location": ["Slayer Tower (top floor)", "Slayer Tower (basement"],
+        "itemRequirement": ["Rock or Granite hammer"],
+        "drops": [
+          {
+            "item": "Granite maul",
+            "amount": [1]
+          },
+          {
+            "item": "Mystic robe top (dark)",
+            "amount": [1]
+          },
+          {
+            "item": "Adamant platelegs",
+            "amount": [1]
+          },
+          {
+            "item": "Rune 2h sword",
+            "amount": [1]
+          },
+          {
+            "item": "Adamant boots",
+            "amount": [1]
+          },
+          {
+            "item": "Rune battleaxe",
+            "amount": [1]
+          },
+          {
+            "item": "Rune platelegs",
+            "amount": [1]
+          },
+          {
+            "item": "Fire rune",
+            "amount": [75, 150]
+          },
+          {
+            "item": "Chaos rune",
+            "amount": [30]
+          },
+          {
+            "item": "Death rune",
+            "amount": [15]
+          },
+          {
+            "item": "Gold ore (noted)",
+            "amount": ["10-20"]
+          },
+          {
+            "item": "Pure essence (noted)",
+            "amount": [150]
+          },
+          {
+            "item": "Steel bar (noted)",
+            "amount": [15]
+          },
+          {
+            "item": "Gold bar (noted)",
+            "amount": ["10-15"]
+          },
+          {
+            "item": "Mithril bar (noted)",
+            "amount": ["15"]
+          },
+          {
+            "item": "Runite ore",
+            "amount": [1]
+          }
+        ]
+      },
+      {
+        "name": "Nechryael",
+        "img": "https://oldschool.runescape.wiki/images/thumb/Nechryael.png/290px-Nechryael.png?d80e7",
+        "combatLevel": 115,
+        "hitpoints": 105,
+        "slayerLevel": 80,
+        "location": ["Slayer Tower (top floor)", "Slayer Tower (basement"],
+        "itemRequirement": [],
+        "drops": [
+          {
+            "item": "Adamant platelegs",
+            "amount": [1]
+          },
+          {
+            "item": "Rune 2h sword",
+            "amount": [1]
+          },
+          {
+            "item": "Rune full helm",
+            "amount": [1]
+          },
+          {
+            "item": "Adamant kiteshield",
+            "amount": [1]
+          },
+          {
+            "item": "Rune boots",
+            "amount": [1]
+          },
+          {
+            "item": "Chaos rune",
+            "amount": [37]
+          },
+          {
+            "item": "Death rune",
+            "amount": [5, 10]
+          },
+          {
+            "item": "Law rune",
+            "amount": ["25-35"]
+          },
+          {
+            "item": "Blood rune",
+            "amount": ["15-20"]
+          },
+          {
+            "item": "Random herb seed",
+            "amount": [1]
+          },
+          {
+            "item": "Snape grass seed",
+            "amount": ["3-6"]
+          },
+          {
+            "item": "Soft clay (noted",
+            "amount": [25]
+          }
+        ]
+      }
+    ]
+  }
+  
