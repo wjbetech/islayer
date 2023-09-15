@@ -1,18 +1,9 @@
 .header {
-    display: flex;
-    height: 300px;
-    width: 100%;
     background-image: url("https://static.fandomspot.com/images/09/19398/00-featured-lite-osrs-slayer-gameplay.jpg");
     background-size: cover;
 }
 
 .header-textbox {
-    color: white;
-    width: 50%;
-    margin: auto;
-    justify-content: center;
-    text-align: left;
-    align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 6px;
     padding: 20px 25px;
