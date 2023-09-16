@@ -1,7 +1,15 @@
 import React from 'react'
 import "./NavBar.css"
+import { useState, useEffect } from 'react'
 
 export const NavBar = () => {
+
+  const [search, setSearch] = useState("");
+
+  const handleChange = (event) => {
+    setSearch(event.target.value);
+  }
+
   return (
     <div className="nav bg-slate-800 text-white p-4">
         {/* left side */}
@@ -14,7 +22,10 @@ export const NavBar = () => {
             <form>
                 <input 
                     type="text" 
-                    className='rounded-full'
+                    className='rounded-full text-md'
+                    value={search}
+                    onChange={handleChange}
+                    placeholder='Look up a monster'
                 />
                 <button
                     className='rounded-full text-sm bg-slate-500'

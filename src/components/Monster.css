@@ -1,4 +1,13 @@
 .monster-img>img {
-    height: 200px;
+    height: 175px;
     margin: auto;
+}
+
+.monster-card {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.monster-card:hover {
+    transform: scale(1.05);
 }
