@@ -3,7 +3,7 @@ import "./NavBar.css"
 
 export const NavBar = () => {
   return (
-    <div className="nav bg-slate-800 text-white">
+    <div className="nav bg-slate-800 text-white p-4">
         {/* left side */}
         <div className="left">
             <h1 className='text-xl'>iSlayer</h1>

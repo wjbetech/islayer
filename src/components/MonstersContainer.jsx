@@ -15,7 +15,7 @@ export const MonstersContainer = () => {
 
 
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap flex-auto p-8 bg-slate-700">
       {monsterCards}
     </div>
   )
