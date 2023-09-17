@@ -7,7 +7,7 @@ export const NavBar = () => {
   const [search, setSearch] = useState("");
 
   const handleChange = (event) => {
-    setSearch(event.target.value);
+    setSearch(event.target.value)
   }
 
   return (
@@ -19,10 +19,10 @@ export const NavBar = () => {
 
         {/* middle */}
         <div className="middle">
-            <form>
+            <form >
                 <input 
                     type="text" 
-                    className='rounded-full text-md'
+                    className='rounded-full text-md text-gray-700'
                     value={search}
                     onChange={handleChange}
                     placeholder='Look up a monster'

@@ -29,20 +29,6 @@
         ]
       },
       {
-        "name": "Kalphite Queen",
-        "img": "https://oldschool.runescape.wiki/images/thumb/Kalphite_Queen.png/580px-Kalphite_Queen.png?a4955",
-        "combatLevel": 333,
-        "hitpoints": 255,
-        "slayerLevel": 85,
-        "location": "Kalphite Lair",
-        "itemRequirement": [],
-        "drops": [
-          "Kalphite Queen Head",
-          "Kq Head",
-          "Dragon Chainbody"
-        ]
-      },
-      {
         "name": "Crawling Hand",
         "img": "https://oldschool.runescape.wiki/images/thumb/Crawling_Hand_%28level_7%29.png/400px-Crawling_Hand_%28level_7%29.png?3e89e",
         "combatLevel": 7,

@@ -3,9 +3,11 @@ import "./MonstersContainer.css"
 import { Monster } from './Monster'
 import data from "../monsters.json"
 
-const monsters = data.slayerMonsters.sort();
-monsters.sort()
+const monsters = data.slayerMonsters.sort(
+  (a, b) => a.slayerLevel - b.slayerLevel
+);
 
+console.log(monsters);
 
 const monsterCards = monsters.map((m) => {
   return (
