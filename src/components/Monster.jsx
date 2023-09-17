@@ -14,7 +14,6 @@ export const Monster = (props) => {
       </div>
       <div className="monster-title mt-12 rounded-md bg-slate-500 text-white p-4 shadow-xl">
         <p className='text-sm font-thin'>Slayer Level: {props.slayer}</p>
-        <p className='text-sm font-thin'>Slayer Level: {props.slayer}</p>
       </div>
     </div>
   )
