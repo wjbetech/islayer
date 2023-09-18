@@ -4,10 +4,17 @@
 }
 
 .monster-card {
-    cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
 .monster-card:hover {
     transform: scale(1.05);
+}
+
+button.view-button {
+    transition: all 0.3s ease-in-out
+}
+
+button.view-button:hover {
+    background-color: rgba(113, 6, 162, 0.833);
 }

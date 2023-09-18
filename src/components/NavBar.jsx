@@ -22,7 +22,7 @@ export const NavBar = () => {
             <form >
                 <input 
                     type="text" 
-                    className='rounded-full text-md text-gray-700'
+                    className='rounded-full text-gray-500 text-md'
                     value={search}
                     onChange={handleChange}
                     placeholder='Look up a monster'
