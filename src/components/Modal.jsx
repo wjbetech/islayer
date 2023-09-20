@@ -4,8 +4,7 @@ import "./Modal.css"
 export const Modal = ({ modalOn, setModalOn, name, level, slayer, img, hitpoints, itemReq, drops }) => {
 
   return (
-    <div className="modal-container"
-    key={name}>
+    <div className="modal-container">
         <div className="modal-header">
             <h1>{name}</h1>
         </div>

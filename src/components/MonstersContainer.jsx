@@ -1,30 +1,48 @@
-import React from 'react';
-import "./MonstersContainer.css";
+import React, { useState } from 'react';
 import { Monster } from './Monster';
+import "./MonstersContainer.css";
 import data from "../monsters.json";
-import { Modal } from "./Modal";
 
 const monsters = data.slayerMonsters.sort(
   (a, b) => a.slayerLevel - b.slayerLevel
 );
 
-export const MonstersContainer = ({ modalOn, setModalOn, name, level, slayer, img, hitpoints, itemReq, drops }) => {
+export const MonstersContainer = ({ setModalOn }) => {
+
+  const [modalData, setModalData] = useState(null);
+
+  const openModal = (monster) => {
+    setModalData(monster);
+    setModalOn(true);
+  };
+
+
   return (
     <div className="flex flex-wrap flex-auto p-8 bg-slate-800">
-      {monsters.map((m) => (
+      {monsters.map((monster) => (
         <Monster 
-          key={m.name} 
-          name={m.name} 
-          level={m.combatLevel} 
-          slayer={m.slayerLevel}
-          img={m.img} 
-          hitpoints={m.hitpoints}
-          itemReq={m.itemRequirement}
-          drops={m.drops}
+          key={monster.name} 
+          name={monster.name} 
+          level={monster.combatLevel} 
+          slayer={monster.slayerLevel}
+          img={monster.img} 
+          hitpoints={monster.hitpoints}
+          itemReq={monster.itemRequirement}
+          drops={monster.drops}
           setModalOn={setModalOn}
         />
       ))}
-      {modalOn ? <Modal /> : ""}
+
+      {modalData && (
+        <Modal
+          setModalOn={() => {
+            setModalData(null); // Clear modal data
+            setModalOn(false); // Close the modal
+          }}
+          {...modalData} // Pass the selected monster's data as props
+        />
+      )}
+
     </div>
   );
 };

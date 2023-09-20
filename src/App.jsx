@@ -13,7 +13,7 @@ function App() {
       <NavBar />
       <Header />
       <MonstersContainer setModalOn={setModalOn} />
-      {modalOn ? <Modal /> : ""}
+      {modalOn ? <Modal setModalOn={setModalOn} /> : ""}
     </div>
   );
 }

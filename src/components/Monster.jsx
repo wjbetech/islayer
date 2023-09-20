@@ -1,8 +1,12 @@
 import React from 'react'
 import "./Monster.css"
 
-export const Monster = ({ name, level, img, slayer, setModalOn, modalOn }) => {
+export const Monster = ({ name, level, img, slayer, setModalOn }) => {
 
+
+  const openModal = () => {
+    setModalOn(true)
+  }
   const favorite = false;
 
   return (
@@ -20,7 +24,7 @@ export const Monster = ({ name, level, img, slayer, setModalOn, modalOn }) => {
       <div className="buttons flex mt-4 text-white text-sm font-thin">
         <button 
           className='view-button w-3/4 p-2 mr-2 rounded-full bg-slate-500 shadow-xl'
-          onClick={() => setModalOn(true)}
+          onClick={openModal}
           >
             View
         </button>
