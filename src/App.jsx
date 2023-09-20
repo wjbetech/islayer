@@ -1,22 +1,22 @@
-import { NavBar } from './components/NavBar'
-import { Header } from './components/Header'
-import { MonstersContainer } from './components/MonstersContainer'
-import { Modal } from './components/Modal'
-import { useState } from 'react'
-
+import React, { useState } from 'react';
+import { NavBar } from './components/NavBar';
+import { Header } from './components/Header';
+import { MonstersContainer } from './components/MonstersContainer';
+import { Modal } from "./components/Modal";
 
 function App() {
 
-  const [modalOn, setModalOn] = useState(false)
+  const [modalOn, setModalOn] = useState(false);
 
   return (
     <div className="App">
       <NavBar />
       <Header />
-      <MonstersContainer />
-      {modalOn ? <Modal setModalOn={setModalOn} /> : ""}
+      <MonstersContainer setModalOn={setModalOn} />
+      {modalOn ? <Modal /> : ""}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
+

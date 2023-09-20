@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Monster.css"
 
-export const Monster = ({setModalOn, name, level, img, slayer}) => {
+export const Monster = ({ name, level, img, slayer, setModalOn, modalOn }) => {
 
   const favorite = false;
 
@@ -20,11 +20,12 @@ export const Monster = ({setModalOn, name, level, img, slayer}) => {
       <div className="buttons flex mt-4 text-white text-sm font-thin">
         <button 
           className='view-button w-3/4 p-2 mr-2 rounded-full bg-slate-500 shadow-xl'
-          onClick={() => setModalOn(true)}>
+          onClick={() => setModalOn(true)}
+          >
             View
         </button>
         <button className='w-1/4 rounded-full shadow-xl  bg-slate-500'>
-          {favorite ? <i class='bx bxs-star' ></i> : <i class='bx bx-star'></i>}
+          {favorite ? <i className='bx bxs-star' ></i> : <i className='bx bx-star'></i>}
         </button>
       </div>
     </div>
